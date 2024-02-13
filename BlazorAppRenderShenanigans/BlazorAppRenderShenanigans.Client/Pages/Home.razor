@@ -1,0 +1,16 @@
+﻿@using BlazorAppRenderShenanigans.Client.Components
+
+@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<div>
+    <button @onclick="TestClick">Test render</button>
+</div>
+<div>
+    <TestComponent MyParameter="_TestParameter" />
+</div>
